@@ -32,7 +32,7 @@ int main() {
     sum(&accum, N, data);
 
     //output result to screen
-    cout << "sum is " << accum;
+    cout << "sum is " << accum << endl;
 
     return 0;
 
