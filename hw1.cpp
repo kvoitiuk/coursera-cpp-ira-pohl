@@ -19,7 +19,6 @@ inline void sum(int*p, vector<int> &d){
      *p += d.at(i); 
 }
 
-
 //sums the numbers 1 through N and outputs the result
 int main() {
    int accum = 0;
@@ -38,3 +37,7 @@ int main() {
    return 0;
 
 }
+
+
+
+
