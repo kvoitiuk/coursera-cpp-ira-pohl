@@ -13,4 +13,5 @@ Taught by Ira Pohl.*
 ## Part B
 
 **Assignments:**
-
+- [ ] Homework 4: Implement Hex Board
+- [ ] Homework 5: Implement Monte Carlo Hex move evaluation
