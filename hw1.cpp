@@ -1,9 +1,9 @@
 /* 
-/* Author: Kate Voitiuk
+/* Author: Kateryna Voitiuk
 /* Course: C++ for C Programmers 
 /* Assignment 1
 /* Date: 12/5/16
-/* Description: Convert C program to C++
+/* Description: Convert C program given into C++
 */
 
 #include <cstdio>
