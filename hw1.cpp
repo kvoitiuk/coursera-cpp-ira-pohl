@@ -15,24 +15,24 @@ const int N = 40;
 //helper function to sum all elements in some vector d 
 inline void sum(int*p, vector<int> &d){
    *p = 0;
-   for(int i = 0; i < d.size(); ++i) 
-     *p += d.at(i); 
+   for(int &num : d) 
+     *p += num; 
 }
 
 //sums the numbers 1 through N and outputs the result
 int main() {
-   int accum = 0;
+   int total = 0;
    vector<int> data(N);
 
    //populate our vector 
-   for(int i = 0; i < N; ++i)
-     data.at(i)= i;
+   for(int &num : data)
+     num = i;
         
    //perform the summation
-   sum(&accum, data);
+   sum(&total, data);
 
    //output result to screen
-   cout << "sum is " << accum << endl;
+   cout << "sum is " << total << endl;
 
    return 0;
 
